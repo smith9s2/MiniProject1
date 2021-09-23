@@ -18,6 +18,7 @@ class Main {
     playGame(randomNum, userNum);
   }
     static void playGame(int randomNum, int userNum) {
+      System.out.println("Please guess a number between 0 and " + userNum);
       
     }
   }
