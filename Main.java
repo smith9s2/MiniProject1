@@ -19,6 +19,10 @@ class Main {
   }
     static void playGame(int randomNum, int userNum) {
       System.out.println("Please guess a number between 0 and " + userNum);
+      Scanner s2 = new Scanner(System.in);
+      int userGuess;
+      int numTries;
+
       
     }
   }
